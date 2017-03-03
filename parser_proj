@@ -26,16 +26,16 @@ long_line_behaviour=1
 long_line_column=80
 
 [files]
-current_page=0
+current_page=1
 FILE_NAME_0=0;Markdown;0;EUTF-8;0;1;1;%2Fhome%2Fmason%2Fsrc%2Finformation_structures%2Fdevelop%2Finfo_struct_hl7_probable_parse_proj%2FREADME.md;0;4
+FILE_NAME_1=1074;Python;0;EUTF-8;0;1;1;%2Fhome%2Fmason%2Fsrc%2Finformation_structures%2Fdevelop%2Finfo_struct_hl7_probable_parse_proj%2Fsrc%2Fparse_things_msh.py;0;4
+FILE_NAME_2=875;Python;0;EUTF-8;0;1;1;%2Fhome%2Fmason%2Fsrc%2Finformation_structures%2Fdevelop%2Finfo_struct_hl7_probable_parse_proj%2Fsrc%2Fhlseven_def.py;0;4
+FILE_NAME_3=1133;Python;0;EUTF-8;0;1;1;%2Fhome%2Fmason%2Fsrc%2Finformation_structures%2Fdevelop%2Finfo_struct_hl7_probable_parse_proj%2Fsrc%2Fparser_exceptions.py;0;4
+FILE_NAME_4=839;Python;0;EUTF-8;0;1;1;%2Fhome%2Fmason%2Fsrc%2Finformation_structures%2Fdevelop%2Finfo_struct_hl7_probable_parse_proj%2Fsrc%2Fmain.py;0;4
+FILE_NAME_5=1975;Python;0;EUTF-8;0;1;1;%2Fhome%2Fmason%2Fsrc%2Finformation_structures%2Fdevelop%2Finfo_struct_hl7_probable_parse_proj%2Fsrc%2Fsol_msh.py;0;4
+FILE_NAME_6=870;Python;0;EUTF-8;0;1;1;%2Fhome%2Fmason%2Fsrc%2Finformation_structures%2Fdevelop%2Finfo_struct_hl7_probable_parse_proj%2Fsrc%2Fparser_utilities.py;0;4
+FILE_NAME_7=0;Python;0;EUTF-8;0;1;1;%2Fhome%2Fmason%2Fsrc%2Finformation_structures%2Fdevelop%2Finfo_struct_hl7_probable_parse_proj%2Fsrc%2Fjson_parser.py;0;4
+FILE_NAME_8=875;Python;0;EUTF-8;0;1;1;%2Fhome%2Fmason%2Fsrc%2Finformation_structures%2Fdevelop%2Finfo_struct_hl7_probable_parse_proj%2Ftest%2Ftest.py;0;4
 
 [VTE]
 last_dir=/home/mason
-
-[prjorg]
-source_patterns=*.c;*.C;*.cpp;*.cxx;*.c++;*.cc;*.m;
-header_patterns=*.h;*.H;*.hpp;*.hxx;*.h++;*.hh;
-ignored_dirs_patterns=.*;CVS;
-ignored_file_patterns=*.o;*.obj;*.a;*.lib;*.so;*.dll;*.lo;*.la;*.class;*.jar;*.pyc;*.mo;*.gmo;
-generate_tag_prefs=0
-external_dirs=
