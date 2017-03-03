@@ -24,7 +24,7 @@
 
 """
 Version:
-    0.0.1
+    0.0.1.2
 Description:
     parse_things_msh does things
 """
@@ -34,14 +34,13 @@ import sys
 
 
 
-class io_err(Exception):
-    def __init__(self, caller='', message='Default message for io error.  \
-                 Fill this out', prev=None
 
 
 class parse_things_msh:
     """
     flexible parser thing
+
+    Main module that will unify all the others.
     """
     class utils:
         """Helper class for parse_things_msh"""
