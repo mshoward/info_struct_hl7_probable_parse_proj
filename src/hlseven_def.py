@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#  parse_things_msh.py
+#  hlseven_def.py
 #
 #  Copyright 2017 mason <mason.howard.15@gmail.com>
 #
@@ -23,46 +23,13 @@
 #
 
 """
-Version:
-    0.0.1.3
-Description:
-    parse_things_msh does things
+Version 0.0.1
+Description
 """
 
-import datetime
-import sys
+def main(args):
+    return 0
 
-
-
-
-
-class parse_things_msh:
-    """
-    flexible parser thing
-
-    Main module that will unify all the others.
-    """
-
-
-    name_to_single_char_delims = {}
-    single_char_delims_to_name = {}
-
-    name_to_multi_char_delims = {}
-    multi_char_delims_to_name = {}
-
-    name_to_key_words = {}
-    key_words_to_name = {}
-
-    name_to_data_type = {}
-    data_type_to_name = {}
-
-
-    @staticmethod
-    def add_single_char_delim(name, delim):
-        """
-        Inserts name and delim into the dicts.
-        """
-        name_to_single_char_delims
-
-
-        pass
+if __name__ == '__main__':
+    import sys
+    sys.exit(main(sys.argv))
