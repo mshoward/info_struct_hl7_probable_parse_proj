@@ -10,7 +10,7 @@ engines:
             verbose: true
             show-source: true
     duplication:
-        enabled: true
+        enabled: false # this engine seems broken for now
         config:
         languages:
             - python:
