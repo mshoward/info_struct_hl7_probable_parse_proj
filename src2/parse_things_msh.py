@@ -24,7 +24,7 @@
 
 """
 Version:
-    0.0.1.3
+    0.0.1
 Description:
     parse_things_msh does things
 """
@@ -34,14 +34,34 @@ import sys
 
 
 
+class io_err(Exception):
+    def __init__(self, caller='', message='Default message for io error.  \
+                 Fill this out', prev=None
 
 
 class parse_things_msh:
     """
     flexible parser thing
-
-    Main module that will unify all the others.
     """
+    class utils:
+        """Helper class for parse_things_msh"""
+        log_file_name = "parser_debug.log"
+        exit_codes = {'io_error'}
+        @staticmethod
+        def graceful_exception_handler(accepted_exception):
+            """
+            Graceful handling of exceptions.
+            """
+            loggit(accepted_exception)
+
+        @staticmethod
+        def loggit(*log_these):
+            with open(log_file_name, 'a') as log_file:
+                print(datetime.datetime.now(), log_these, file=sys.stderr)
+                print(datetime.datetime.now(), log_these, file=log_file)
+
+        @staticmethod
+        def insert_into_dicts(dict_one, dict_two, key, val):
 
 
     name_to_single_char_delims = {}
