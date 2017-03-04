@@ -23,16 +23,36 @@
 #
 
 """
-Version 0.0.1
+Version 0.0.2
 Description
 """
 
-class io_err(Exception):
-    def __init__(self, p_caller='', p_message='Default message for io error.  \
+class parser_exception(Exception):
+    """
+    Base handling funcs.
+
+    todo.
+    """
+
+class io_err(parser_exception):
+    def __init__(self, p_caller='', p_message='Default message for error.  \
                  Fill this out', p_prev=None):
-         self.message = p_message
-         self.caller = p_caller
-         self.prev = p_prev
+        self.message = p_message
+        self.caller = p_caller
+        self.prev = p_prev
+
+class dict_insertion_err(parser_exception):
+    import parser_utilities
+    def __init__(self, p_caller='', p_message='Default message for error.  \
+                 Fill this out', p_prev=None, **failed_mappings):
+        self.message = p_message
+        self.caller = p_caller
+        self.prev = p_prev
+        parser_utilities.loggit(self.message)
+        for key, val in failed_mappings:
+            parser_utilities.loggit("Failure to insert key: '", key,
+                                    "' and value: '", val,
+                                    "' into dictionary.")
 
 
 
