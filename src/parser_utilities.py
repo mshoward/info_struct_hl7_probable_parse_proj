@@ -23,7 +23,7 @@
 #
 
 """
-Version 0.0.1.2
+Version 0.0.1.3
 """
 
 
@@ -49,6 +49,12 @@ class parser_utilities:
 
     @staticmethod
     def insert_into_dicts(dict_one, dict_two, key, val):
+        try:
+            dict_one[key] = val
+            dict_two[val] = key
+        except Exception as insert_failure:
+
+
     @staticmethod
     def printerr(*e_objects, e_sep=' ', e_end='\n', e_file=sys.stderr,
                  e_flush=True):
@@ -62,6 +68,7 @@ class parser_utilities:
             print(datetime.datetime.now(), sep=e_sep, end=e_sep, file=e_file,
                   flush=e_flush)
             print(*e_objects, sep=e_sep, end=e_end, file=e_file, flush=e_flush)
+
     @staticmethod
     def curr_fname(whole_path=False):
         """
