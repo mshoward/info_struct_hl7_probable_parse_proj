@@ -24,7 +24,7 @@
 
 """
 Version:
-    0.0.1.3
+    0.0.1.4
 Description:
     parse_things_msh does things
 """
@@ -42,23 +42,17 @@ class parse_things_msh:
 
     Main module that will unify all the others.
     """
+    def __init__(self):
+        self.name_to_single_char_delims = {}
+        self.single_char_delims_to_name = {}
+        self.name_to_multi_char_delims = {}
+        self.multi_char_delims_to_name = {}
+        self.name_to_key_words = {}
+        self.key_words_to_name = {}
+        self.name_to_data_type = {}
+        self.data_type_to_name = {}
 
-
-    name_to_single_char_delims = {}
-    single_char_delims_to_name = {}
-
-    name_to_multi_char_delims = {}
-    multi_char_delims_to_name = {}
-
-    name_to_key_words = {}
-    key_words_to_name = {}
-
-    name_to_data_type = {}
-    data_type_to_name = {}
-
-
-    @staticmethod
-    def add_single_char_delim(name, delim):
+    def add_single_char_delim(self,name, delim):
         """
         Inserts name and delim into the dicts.
         """

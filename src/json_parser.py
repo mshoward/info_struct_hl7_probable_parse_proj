@@ -30,6 +30,10 @@ Described.
 """
 mime_type="application/json"
 
+def json_parser_settings():
+    pass
+
+
 
 def main(args):
     return 0
