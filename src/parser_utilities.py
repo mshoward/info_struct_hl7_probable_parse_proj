@@ -53,6 +53,8 @@ class parser_utilities:
             dict_one[key] = val
             dict_two[val] = key
         except Exception as insert_failure:
+            # todo: handle it
+            pass
 
 
     @staticmethod
