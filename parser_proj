@@ -20,6 +20,8 @@ indent_mode=2
 [project]
 name=parser_proj
 base_path=/home/mason/src/information_structures/develop/info_struct_hl7_probable_parse_proj
+description=
+file_patterns=
 
 [long line marker]
 long_line_behaviour=1
@@ -27,6 +29,7 @@ long_line_column=80
 
 [files]
 current_page=0
+FILE_NAME_0=0;YAML;0;EUTF-8;0;1;1;%2Fhome%2Fmason%2Fsrc%2Finformation_structures%2Fdevelop%2Finfo_struct_hl7_probable_parse_proj%2F.codeclimate.yml;0;4
 
 [VTE]
 last_dir=/home/mason
@@ -38,3 +41,12 @@ ignored_dirs_patterns=.*;CVS;
 ignored_file_patterns=*.o;*.obj;*.a;*.lib;*.so;*.dll;*.lo;*.la;*.class;*.jar;*.pyc;*.mo;*.gmo;
 generate_tag_prefs=0
 external_dirs=
+
+[build-menu]
+YAMLFT_00_LB=yamllint
+YAMLFT_00_CM=yamllint -f parsable %f
+YAMLFT_00_WD=
+filetypes=YAML;
+YAMLFT_02_LB=
+YAMLFT_02_CM=
+YAMLFT_02_WD=
