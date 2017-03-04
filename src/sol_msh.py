@@ -131,7 +131,7 @@ def out_type_2(file_obj):
     Prints the corrected alt2.csv to dest_msh_alt2.csv.
     """
     correction_map = {'ONE:TWO':'ONE:TWO', 'ONE:':'ONE:TWO', ':TWO':'ONE:TWO',
-                      '1:3':'1:3', '1:':'1:3', ':3':'1:3',
+                      '1:3': '1:3', '1:':'1:3', ':3':'1:3',
                       '3:6':'3:6', '3:':'3:6', ':6':'3:6',
                       '2:4':'2:4', '2:':'2:4', ':4':'2:4'}
     out_fname = 'dest_msh_alt2.csv'

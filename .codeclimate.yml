@@ -1,19 +1,41 @@
 ---
 engines:
+  pep8:
+    enabled: true
+    config:
+      ignore: none
+      show-pep8: true
+      statistics: true
+      max-line-length: 80
+      verbose: true
+      show-source: true
   duplication:
     enabled: true
     config:
       languages:
+        python:
+          python_version: 3
+          mass_threshold: 20
       - ruby
       - javascript
-      - python
       - php
   fixme:
     enabled: true
+    config:
+      strings:
+      - FIXME
+      - TODO
+      - DOTHISBETTER
+  markdownlint:
+    enabled: true
   radon:
     enabled: true
+    config:
+      python_version: 3
+      threshold: "B"
 ratings:
   paths:
+  - "**.md"
   - "**.inc"
   - "**.js"
   - "**.jsx"
