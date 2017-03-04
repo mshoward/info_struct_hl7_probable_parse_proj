@@ -15,7 +15,7 @@ engines:
         languages:
             - python:
                   python_version: 3
-                  mass_threshold: 20
+                  mass_threshold: 32
             - ruby
             - javascript
             - php
