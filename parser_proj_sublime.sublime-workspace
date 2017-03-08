@@ -1,0 +1,425 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sub",
+				"sublime-package"
+			]
+		]
+	},
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "pcip",
+		"selected_items":
+		[
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Indexing Status"
+			],
+			[
+				"tasks",
+				"Tasks: New document"
+			],
+			[
+				"notes",
+				"Notes: Index"
+			],
+			[
+				"view",
+				"View: Toggle Menu"
+			],
+			[
+				"material theme",
+				"Material Theme: Info"
+			],
+			[
+				"mat",
+				"Material Theme: Configuration"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"pcrp",
+				"Package Control: Remove Package"
+			],
+			[
+				"codef",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"print",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"SublimeLinter",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: Remove Package",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: U",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: Remove P",
+				"Package Control: Remove Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 510.0
+	},
+	"console":
+	{
+		"height": 266.0,
+		"history":
+		[
+			"help(sublime)",
+			"dir()",
+			"import formatter",
+			"print(\"string\", file=pydoc.sys.stdout)",
+			"print(\"string\", file=pydoc.sys.stderr)",
+			"print(\"string\", file=builtins.sys.stderr)",
+			"print(\"string\", file=sys.stderr)",
+			"print(\"string\", file=stderr)",
+			"print(\"string\")",
+			"dir(CodeFormatter.codeformatter.cssformatter.__dict__)",
+			"help(CodeFormatter.codeformatter.cssformatter.__dict__)",
+			"help(CodeFormatter.codeformatter.cssformatter)",
+			"help(CodeFormatter.codeformatter)",
+			"dir(CodeFormatter.codeformatter)",
+			"dir(CodeFormatter)",
+			"help(CodeFormatter)",
+			"help = pydoc.help",
+			"help(CodeFormatter)",
+			"dir(CodeFormatter)",
+			"dir()",
+			"import codeformatter",
+			"help(codeformatter)",
+			"CodeFomatter.dir()",
+			"pydoc.help(CodeFormatter)",
+			"pydoc.help()",
+			"pydoc.cli()",
+			"dir(pydoc)",
+			"dir(pydoc",
+			"pydoc",
+			"pydoc.browse",
+			"pydoc.browse.__repr__()",
+			"pydoc.browse.__repr__.__str__()",
+			"dir(pydoc.browse.__repr__)",
+			"dir(pydoc.browse)",
+			"pydoc.browse.__defaults__",
+			"dir(pydoc.browse.__defaults__)",
+			"dir(pydoc.browse)",
+			"pydoc.browse('b')",
+			"pydoc.browse()",
+			"pydoc.browse",
+			"pydoc browse",
+			"dir(pydoc)",
+			"dir(dir)",
+			"dir.dir()",
+			"dir()",
+			"dir",
+			"pydoc.dir()",
+			"pydoc.dir",
+			"import help from pydoc",
+			"help",
+			"import pydoc",
+			"help",
+			"import builtins",
+			"import python",
+			"import python3",
+			"help(dir)",
+			"dir()",
+			"dir(CodeFormatter)",
+			"CodeFormatter.dir()",
+			"CodeFormatter()",
+			"import CodeFormatter",
+			"opts",
+			"import help",
+			"__builtins__.help()",
+			"__builtins__",
+			"__builtins__.__all__",
+			"__builtins__._all",
+			"__builtins__._ALL",
+			"__builtins__.__ALL",
+			"__builtins__.__ALL__",
+			"__builtins__.__ALL",
+			"__builtins__.__AL__",
+			"__builtins__.__all__",
+			"__builtins__.",
+			"__builtins__.dir()",
+			"dir()",
+			"help",
+			"help()",
+			"help(modules)",
+			"import pip3",
+			"import pip",
+			"pip install pep8"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/mason/src/info_struct_hl7_probable_parse_proj/archive.todo",
+		"/C/Users/mason/src/info_struct_hl7_probable_parse_proj/curr.todo",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/C/Users/mason/Dropbox/Notes/.brain/Inbox.note",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/Default (Windows).sublime-keymap",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Packages/PlainTasks/PlainTasks (Windows).sublime-settings",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/mason/src/info_struct_hl7_probable_parse_proj/src/parse_things_msh.py",
+		"/C/Users/mason/src/info_struct_hl7_probable_parse_proj/src/main.py",
+		"/C/Users/mason/src/info_struct_hl7_probable_parse_proj/src/json_parser.py",
+		"/C/Users/mason/src/info_struct_hl7_probable_parse_proj/src/hlseven_def.py",
+		"/C/Users/mason/src/info_struct_hl7_probable_parse_proj/test/test.py",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/mason/src/info_struct_hl7_probable_parse_proj/setup.cfg",
+		"/C/Users/mason/src/info_struct_hl7_probable_parse_proj/src/parser_exceptions.py",
+		"/C/Users/mason/src/info_struct_hl7_probable_parse_proj/src/parser_utilities.py",
+		"/C/Users/mason/src/info_struct_hl7_probable_parse_proj/changelog.md",
+		"/C/Users/mason/src/info_struct_hl7_probable_parse_proj/README.md",
+		"/C/Users/mason/src/info_struct_hl7_probable_parse_proj/src/sol_msh.py",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/Default (Windows).sublime-keymap",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Default (Windows).sublime-keymap",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Packages/CodeFormatter/Default (Windows).sublime-keymap",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Packages/CodeFormatter/README.md",
+		"/C/Users/mason/Downloads/tmp.css",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Packages/CodeFormatter/codeformatter/formatter.py",
+		"/C/Users/mason/src/config/sublime/Preferences.sublime-settings",
+		"/C/Users/mason/opt/Sublime Text 3/configuration.sublime-project",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/mason/Saved Games/Diablo II/Homer.txt",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Packages/Material Theme/Preferences.sublime-settings",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Installed Packages/Theme - Brogrammer.sublime-package",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Installed Packages/Python 3.sublime-package",
+		"/C/Users/mason/AppData/Roaming/Sublime Text 3/Installed Packages/EasySettings.sublime-package"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ctrl+k",
+			"font",
+			"https://github.com/SublimeLinter/SublimeLinter-pep8",
+			"spaces",
+			"ignor",
+			"ignored",
+			"trailing",
+			"color",
+			"auto",
+			"always",
+			"ignored",
+			"ignore",
+			"installed",
+			"boot",
+			"theme"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 70.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 136.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 297.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

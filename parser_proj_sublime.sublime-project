@@ -1,0 +1,46 @@
+{
+    "folders":
+    [
+        {
+            "file_exclude_patterns":
+            [
+                "*.pyc",
+                "*.pyo",
+                "*.exe",
+                "*.dll",
+                "*.obj",
+                "*.o",
+                "*.a",
+                "*.lib",
+                "*.so",
+                "*.dylib",
+                "*.ncb",
+                "*.sdf",
+                "*.suo",
+                "*.pdb",
+                "*.idb",
+                ".DS_Store",
+                "*.class",
+                "*.psd",
+                "*.db",
+                "GRTAGS",
+                "GPATH",
+                "GTAGS",
+                "NppGTags.cfg",
+                "tags",
+                "tags.idx"
+            ],
+            "folder_exclude_patterns":
+            [
+                ".svn",
+                ".git",
+                ".hg",
+                "CVS",
+                "__pycache__"
+            ],
+            "path": 
+            "C:\\Users\\mason\\src\\info_struct_hl7_probable_parse_proj"
+        }
+        
+    ]
+}

@@ -22,12 +22,11 @@
 #
 #
 
-"""
-Version 0.0.1
-Description
-"""
+"""Version 0.0.1 Description."""
+
 
 def main(args):
+    """Will likely be a dummy function."""
     return 0
 
 if __name__ == '__main__':

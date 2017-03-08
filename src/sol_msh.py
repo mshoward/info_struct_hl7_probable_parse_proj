@@ -1,27 +1,31 @@
 #!/usr/bin/python3
-"""
-    Outputs: tab separated csv's of input put files
-"""
-
+"""Summary:     Unchanged."""
 import argparse
 import sys
-#import itertools
+# import itertools
 import io
-#import re
+# import re
 import datetime
 import os
 
-#todo move helper funcs into here
+"""
+Description:
+    ☐ Outputs: tab separated csv's of input put files
+"""
+
+
+# todo move helper funcs into here
 class sol_util:
+    """ \
+    Various Utility functions.  File operations, logging, error reporting,\
+    verbosity resolution, etc.\
     """
-    Various Utility functions.  File operations, logging, error reporting,
-    verbosity resolution, etc.
-    """
-    #todo ~~test this~~ fixme
+
+    # todo ~~test this~~ fixme
     log_file_name = "debugging.log"
 
-    #todo for later
-    #def __init__():
+    # todo for later
+    # def __init__():
     #   log_file_obj = open(str(curr_fname + ".log"),'a')
     @staticmethod
     def printerr(*e_objects, e_sep=' ', e_end='\n', e_file=sys.stderr,
@@ -31,7 +35,7 @@ class sol_util:
 
         Formats with timestamps, resolves 'verbose' flag.
         """
-        #global PARSED_GLOBALS
+        # global PARSED_GLOBALS
         if PARSED_GLOBALS['verbose']:
             print(datetime.datetime.now(), sep=e_sep, end=e_sep, file=e_file,
                   flush=e_flush)

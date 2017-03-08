@@ -23,9 +23,11 @@
 #
 
 """
-Version 0.0.2
+Version 0.0.3.
+
 Description
 """
+
 
 class parser_exception(Exception):
     """
@@ -34,17 +36,26 @@ class parser_exception(Exception):
     todo.
     """
 
+
 class io_err(parser_exception):
+    """IO error specific to the module."""
+
     def __init__(self, p_caller='', p_message='Default message for error.  \
                  Fill this out', p_prev=None):
+        """Standard exception chaining."""
         self.message = p_message
         self.caller = p_caller
         self.prev = p_prev
 
+
 class dict_insertion_err(parser_exception):
+    """Tried to insert things into the dictionary, but was not able to."""
+
     import parser_utilities
+
     def __init__(self, p_caller='', p_message='Default message for error.  \
                  Fill this out', p_prev=None, **failed_mappings):
+        """Todo doc."""
         self.message = p_message
         self.caller = p_caller
         self.prev = p_prev
@@ -54,12 +65,9 @@ class dict_insertion_err(parser_exception):
                                     "' and value: '", val,
                                     "' into dictionary.")
 
+# def main(args):
+#     return 0
 
-
-
-def main(args):
-    return 0
-
-if __name__ == '__main__':
-    import sys
-    sys.exit(main(sys.argv))
+# if __name__ == '__main__':
+#     import sys
+#     sys.exit(main(sys.argv))

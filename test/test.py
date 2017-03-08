@@ -1,6 +1,7 @@
 #!/usr/bin/env python
+
 # -*- coding: utf-8 -*-
-#
+
 #  test.py
 #
 #  Copyright 2017 mason <mason.howard.15@gmail.com>
@@ -22,12 +23,11 @@
 #
 #
 
-"""
-parser proj testing module
-0.0.1
-"""
+"""parser proj testing module 0.0.1."""
+
 
 def main(args):
+    """Run all tests, pending flags."""
     return 0
 
 if __name__ == '__main__':
